@@ -4,7 +4,13 @@ package com.xiangqin.web.test;
  * @author dengyh
  * @version 1.0
  * @date 2024/11/20 21:16
- * @description
+ * @description  json 扁平化实现
+ * 将嵌套的 JSON 数据（即多层级的 JSON 对象或数组）进行扁平化处理
+ * {"key1":{"key1":"key2"},"key2":["key1","key2"]}  输入
+ * 输出
+ * key1.key1 : key2
+ * key2.0 : key1
+ * key2.1 : key2
  */
 
 
